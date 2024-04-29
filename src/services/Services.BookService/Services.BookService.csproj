@@ -17,4 +17,8 @@
     <PackageReference Include="HotChocolate.Types.Analyzers" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\Core.AspireServiceDefaults\Core.AspireServiceDefaults.csproj" />
+  </ItemGroup>
+
 </Project>

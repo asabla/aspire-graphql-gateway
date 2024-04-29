@@ -13,4 +13,11 @@
     <PackageReference Include="Aspire.Hosting.AppHost" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\services\Services.ActorService\Services.ActorService.csproj" />
+    <ProjectReference Include="..\services\Services.BookService\Services.BookService.csproj" />
+    <ProjectReference Include="..\services\Services.GraphQLGateway\Services.GraphQLGateway.csproj" />
+    <ProjectReference Include="..\services\Services.WeatherService\Services.WeatherService.csproj" />
+  </ItemGroup>
+
 </Project>
