@@ -1,0 +1,15 @@
+﻿schema {
+  query: Query
+}
+
+type Actor {
+  name: String!
+  dateOfBirth: DateTime!
+}
+
+type Query {
+  actor: Actor!
+}
+
+"The `DateTime` scalar represents an ISO-8601 compliant date time type."
+scalar DateTime @specifiedBy(url: "https:\/\/www.graphql-scalars.com\/date-time")

@@ -1,0 +1,1 @@
+{"subgraph":"actorService","http":{"baseAddress":"http://localhost:5069/graphql","clientName":"http"}}

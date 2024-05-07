@@ -3,6 +3,8 @@
 [QueryType]
 public static class Query
 {
-    public static Book GetBook()
-        => new Book("C# in depth.", new Author("Jon Skeet"));
+    public static Weather GetWeather()
+        => new Weather("Seattle", 75);
 }
+
+public record Weather(string City, int Degrees);

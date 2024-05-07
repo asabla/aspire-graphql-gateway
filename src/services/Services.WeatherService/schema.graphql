@@ -1,0 +1,12 @@
+﻿schema {
+  query: Query
+}
+
+type Query {
+  weather: Weather!
+}
+
+type Weather {
+  city: String!
+  degrees: Int!
+}
